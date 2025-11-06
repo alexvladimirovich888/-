@@ -321,24 +321,24 @@ let userCitizens = [];
 let marketplaceItems = [
   {
     id: 1,
-    name: "Gold $CAPITAL",
+    name: "Gold $SVC",
     description:
-      "Popular $CAPITAL storage method in village, Gold $CAPITAL is always equal to 1000$ $CAPITAL",
+      "Popular $SVC storage method in village, Gold $SVC is always equal to 1000$ $SVC",
     price: 1000,
     image: "images/items/gold_house.jpg",
   },
   {
     id: 2,
-    name: "Silver $CAPITAL",
+    name: "Silver $SVC",
     description:
-      "Popular $CAPITAL storage method in village, Silver $CAPITAL is always equal to 100$ $CAPITAL",
+      "Popular $SVC storage method in village, Silver $SVC is always equal to 100$ $SVC",
     price: 100,
     image: "images/items/silver_house.jpg",
   },
   {
     id: 3,
     name: "Experience",
-    description: "Boost your profile leaderboard rank in $CAPITAL verse.",
+    description: "Boost your profile leaderboard rank in $SVC verse.",
     price: 500,
     image: "images/items/expirence.jpg",
   },
@@ -596,7 +596,7 @@ document.getElementById("connect-button").addEventListener("click", () => {
   balanceDisplay.textContent = balance;
   
   // Показываем сообщение об успехе
-  showSuccessMessage("Wallet connected successfully! You received 1000 $CAPITAL");
+  showSuccessMessage("Wallet connected successfully! You received 1000 $SVC");
 });
 
 // Инициализация при загрузке страницы
