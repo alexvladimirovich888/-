@@ -321,24 +321,24 @@ let userCitizens = [];
 let marketplaceItems = [
   {
     id: 1,
-    name: "Gold $SVC",
+    name: "Gold $PFP",
     description:
-      "Popular $SVC storage method in village, Gold $SVC is always equal to 1000$ $SVC",
+      "Popular $PFP storage method in village, Gold $PFP is always equal to 1000$ $PFP",
     price: 1000,
     image: "images/items/gold_house.jpg",
   },
   {
     id: 2,
-    name: "Silver $SVC",
+    name: "Silver $PFP",
     description:
-      "Popular $SVC storage method in village, Silver $SVC is always equal to 100$ $SVC",
+      "Popular $PFP storage method in village, Silver $PFP is always equal to 100$ $PFP",
     price: 100,
     image: "images/items/silver_house.jpg",
   },
   {
     id: 3,
     name: "Experience",
-    description: "Boost your profile leaderboard rank in $SVC verse.",
+    description: "Boost your profile leaderboard rank in $PFP verse.",
     price: 500,
     image: "images/items/expirence.jpg",
   },
@@ -596,7 +596,7 @@ document.getElementById("connect-button").addEventListener("click", () => {
   balanceDisplay.textContent = balance;
   
   // Показываем сообщение об успехе
-  showSuccessMessage("Wallet connected successfully! You received 1000 $SVC");
+  showSuccessMessage("Wallet connected successfully! You received 1000 $PFP");
 });
 
 // Инициализация при загрузке страницы
