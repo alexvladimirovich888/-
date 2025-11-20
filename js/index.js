@@ -321,24 +321,24 @@ let userCitizens = [];
 let marketplaceItems = [
   {
     id: 1,
-    name: "Gold $PFP",
+    name: "Gold $BARTER",
     description:
-      "Popular $PFP storage method in village, Gold $PFP is always equal to 1000$ $PFP",
+      "Popular $BARTER storage method in village, Gold $BARTER is always equal to 1000$ $BARTER",
     price: 1000,
     image: "images/items/gold_house.jpg",
   },
   {
     id: 2,
-    name: "Silver $PFP",
+    name: "Silver $BARTER",
     description:
-      "Popular $PFP storage method in village, Silver $PFP is always equal to 100$ $PFP",
+      "Popular $BARTER storage method in village, Silver $BARTER is always equal to 100$ $BARTER",
     price: 100,
     image: "images/items/silver_house.jpg",
   },
   {
     id: 3,
     name: "Experience",
-    description: "Boost your profile leaderboard rank in $PFP verse.",
+    description: "Boost your profile leaderboard rank in $BARTER verse.",
     price: 500,
     image: "images/items/expirence.jpg",
   },
@@ -596,7 +596,7 @@ document.getElementById("connect-button").addEventListener("click", () => {
   balanceDisplay.textContent = balance;
   
   // Показываем сообщение об успехе
-  showSuccessMessage("Wallet connected successfully! You received 1000 $PFP");
+  showSuccessMessage("Wallet connected successfully! You received 1000 $BARTER");
 });
 
 // Инициализация при загрузке страницы
