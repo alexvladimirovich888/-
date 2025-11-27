@@ -321,24 +321,24 @@ let userCitizens = [];
 let marketplaceItems = [
   {
     id: 1,
-    name: "Gold $BARTER",
+    name: "Gold $TVILLAGE",
     description:
-      "Popular $BARTER storage method in village, Gold $BARTER is always equal to 1000$ $BARTER",
+      "Popular $TVILLAGE storage method in village, Gold $TVILLAGE is always equal to 1000$ $TVILLAGE",
     price: 1000,
     image: "images/items/gold_house.jpg",
   },
   {
     id: 2,
-    name: "Silver $BARTER",
+    name: "Silver $TVILLAGE",
     description:
-      "Popular $BARTER storage method in village, Silver $BARTER is always equal to 100$ $BARTER",
+      "Popular $TVILLAGE storage method in village, Silver $TVILLAGE is always equal to 100$ $TVILLAGE",
     price: 100,
     image: "images/items/silver_house.jpg",
   },
   {
     id: 3,
     name: "Experience",
-    description: "Boost your profile leaderboard rank in $BARTER verse.",
+    description: "Boost your profile leaderboard rank in $TVILLAGE verse.",
     price: 500,
     image: "images/items/expirence.jpg",
   },
@@ -596,7 +596,7 @@ document.getElementById("connect-button").addEventListener("click", () => {
   balanceDisplay.textContent = balance;
   
   // Показываем сообщение об успехе
-  showSuccessMessage("Wallet connected successfully! You received 1000 $BARTER");
+  showSuccessMessage("Wallet connected successfully! You received 1000 $TVILLAGE");
 });
 
 // Инициализация при загрузке страницы
